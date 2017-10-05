@@ -51,6 +51,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/color-pal.svg)](https://greenkeeper.io/)
+
 A simple little color palette for rapid prototyping. Based and inspired by [colors](https://github.com/mrmrs/colors). Customized to my own preference.
 
 ## Install
