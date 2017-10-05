@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/tiaanduplessis/color-pal#readme",
   "devDependencies": {
-    "bili": "~0.15.5",
+    "bili": "~0.18.1",
     "cpy-cli": "~1.0.1",
-    "csscomb": "~4.1.0",
-    "csso-cli": "~1.0.0",
-    "prettier": "~1.4.2",
+    "csscomb": "~4.2.0",
+    "csso-cli": "~1.1.0",
+    "prettier": "~1.7.4",
     "standard": "~10.0.2"
   }
 }
