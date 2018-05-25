@@ -33,7 +33,7 @@
   "homepage": "https://github.com/tiaanduplessis/color-pal#readme",
   "devDependencies": {
     "bili": "~3.1.0",
-    "cpy-cli": "~1.0.1",
+    "cpy-cli": "~2.0.0",
     "csscomb": "~4.2.0",
     "csso-cli": "~1.1.0",
     "prettier": "~1.7.4",
