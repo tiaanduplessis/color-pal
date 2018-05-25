@@ -1,57 +1,26 @@
+
 <h1 align="center">color-pal</h1>
 <div align="center">
   <img src="media/example.png" alt=""/>
 </div>
-<br>
-<div align="center">
-  <a href="https://npmjs.org/package/color-pal">
-    <img src="https://img.shields.io/npm/v/color-pal.svg?style=flat-square" alt="Package version" />
-  </a>
-  <a href="https://npmjs.org/package/color-pal">
-  <img src="https://img.shields.io/npm/dm/color-pal.svg?style=flat-square" alt="Downloads" />
-  </a>
-  <a href="https://github.com/feross/standard">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard" />
-  </a>
-  <a href="https://travis-ci.org/tiaanduplessis/color-pal">
-    <img src="https://img.shields.io/travis/tiaanduplessis/color-pal.svg?style=flat-square" alt="Travis Build" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/color-pal/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/color-pal.svg?style=flat-square" alt="License" />
-  </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs" />
-  </a>
-</div>
-<br>
-<div align="center">
-  <a href="https://github.com/tiaanduplessis/color-pal/watchers">
-    <img src="https://img.shields.io/github/watchers/tiaanduplessis/color-pal.svg?style=social" alt="Github Watch Badge" />
-  </a>
-  <a href="https://github.com/tiaanduplessis/color-pal/stargazers">
-    <img src="https://img.shields.io/github/stars/tiaanduplessis/color-pal.svg?style=social" alt="Github Star Badge" />
-  </a>
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20color-pal!%20https://github.com/tiaanduplessis/color-pal%20%F0%9F%91%8D">
-    <img src="https://img.shields.io/twitter/url/https/github.com/tiaanduplessis/color-pal.svg?style=social" alt="Tweet" />
-  </a>
-</div>
-<br>
-<div align="center">
-  Built with ❤︎ by <a href="https://github.com/tiaanduplessis">Tiaan</a> and <a href="https://github.com/tiaanduplessis/color-pal/graphs/contributors">contributors</a>
-</div>
 
-<h2>Table of Contents</h2>
-<details>
-  <summary>Table of Contents</summary>
-  <li><a href="#about">About</a></li>
-	<li><a href="#install">Install</a></li>
-  <li><a href="#contribute">Contribute</a></li>
-  <li><a href="#license">License</a></li>
-</details>
+[![package version](https://img.shields.io/npm/v/color-pal.svg?style=flat-square)](https://npmjs.org/package/color-pal)
+[![package downloads](https://img.shields.io/npm/dm/color-pal.svg?style=flat-square)](https://npmjs.org/package/color-pal)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![package license](https://img.shields.io/npm/l/color-pal.svg?style=flat-square)](https://npmjs.org/package/color-pal)
+[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/color-pal.svg)](https://greenkeeper.io/)
+
+> Simple little color palette for rapid prototyping
+
+## Table of Contents
+
+- [About](#about)
+- [Install](#install)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [License](#License)
 
 ## About
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/color-pal.svg)](https://greenkeeper.io/)
 
 A simple little color palette for rapid prototyping. Based and inspired by [colors](https://github.com/mrmrs/colors). Customized to my own preference.
 
@@ -73,10 +42,40 @@ With CDN:
 <link rel="stylesheet" href="https://unpkg.com/color-pal/dist/color-pal.min.css">
 ```
 
+## Usage
+
+```html
+  <div class="box bg-aqua"><span class="white">.aqua</span></div>
+  <div class="box bg-black"><span class="white">.black</span></div>
+  <div class="box bg-blue"><span class="white">.blue</span></div>
+  <div class="box bg-beige"><span class="black">.beige</span></div>
+  <div class="box bg-brown"><span class="white">.brown</span></div>
+  <div class="box bg-coral"><span class="white">.coral</span></div>
+  <div class="box bg-crimson"><span class="white">.crimson</span></div>
+  <div class="box bg-fuchsia"><span class="white">.fuchsia</span></div>
+  <div class="box bg-gold"><span class="black">.gold</span></div>
+  <div class="box bg-gray"><span class="white">.gray</span></div>
+  <div class="box bg-lime"><span class="white">.lime</span></div>
+  <div class="box bg-green"><span class="white">.green</span></div>
+  <div class="box bg-indigo"><span class="white">.indigo</span></div>
+  <div class="box bg-navy"><span class="white">.navy</span></div>
+  <div class="box bg-olive"><span class="white">.olive</span></div>
+  <div class="box bg-orange"><span class="white">.orange</span></div>
+  <div class="box bg-red"><span class="white">.red</span></div>
+  <div class="box bg-pink"><span class="black">.pink</span></div>
+  <div class="box bg-yellow"><span class="black">.yellow</span></div>
+  <div class="box bg-snow"><span class="black">.snow</span></div>
+  <div class="box bg-silver"><span class="black">.silver</span></div>
+```
+
 ## Contribute
 
-Contributions are welcome. Please open up an issue or create PR if you would like to help out.
+1. Fork it and create your feature branch: git checkout -b my-new-feature
+2. Commit your changes: git commit -am 'Add some feature'
+3. Push to the branch: git push origin my-new-feature 
+4. Submit a pull request
 
 ## License
 
 MIT
+    

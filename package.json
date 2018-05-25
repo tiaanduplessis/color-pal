@@ -2,41 +2,41 @@
   "name": "color-pal",
   "version": "1.0.0",
   "description": "Simple little color palette for rapid prototyping",
+  "author": "Tiaan du Plessis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiaanduplessis/color-pal.git"
+  },
+  "source": "src/index.js",
   "main": "dist/color-pal.js",
   "style": "dist/color-pal.css",
-  "browser": "dist/color-pal.min.js",
-  "jsnext:main": "dist/color-pal.es.js",
+  "browser": "dist/color-pal.js",
+  "module": "dist/color-pal.m.js",
   "scripts": {
     "lint:css": "csscomb src",
     "lint:js": "standard src",
     "build:css": "cpy src/color-pal.css dist; csso src/color-pal.css --output dist/color-pal.min.css; cpy dist/color-pal.css docs",
-    "build:js": "bili --format es --format umd --compress",
+    "build:js": "microbundle",
     "lint": "npm run lint:css && npm run lint:js",
     "build": "npm run build:js && npm run build:css",
     "test": "npm run lint",
     "precommit": "npm test && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tiaanduplessis/color-pal.git"
   },
   "keywords": [
     "colors",
     "palette",
     "color"
   ],
-  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tiaanduplessis/color-pal/issues"
   },
   "homepage": "https://github.com/tiaanduplessis/color-pal#readme",
   "devDependencies": {
-    "bili": "~3.1.0",
     "cpy-cli": "~2.0.0",
     "csscomb": "~4.2.0",
     "csso-cli": "~1.1.0",
-    "prettier": "~1.12.0",
-    "standard": "~10.0.2"
+    "microbundle": "^0.4.4",
+    "standard": "~11.0.1"
   }
 }
