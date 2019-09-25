@@ -592,9 +592,10 @@ cp-file@^6.0.0:
     pify "^3.0.0"
     safe-buffer "^5.0.1"
 
-cpy-cli@~2.0.0:
+cpy-cli@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/cpy-cli/-/cpy-cli-2.0.0.tgz#13f1528a231605c52ee7b7f74848e4be82253274"
+  integrity sha512-LzrtY3lBWvFZcw4lXgkEbbDUd7y78juC3C5l7gj3UyezMEZF0Be9fjCVLN1HoZAzdMDeC3KHehWpHBJvgVAPkw==
   dependencies:
     cpy "^7.0.0"
     meow "^5.0.0"
@@ -649,9 +650,10 @@ css-tree@1.0.0-alpha.27:
     mdn-data "^1.0.0"
     source-map "^0.5.3"
 
-csscomb@~4.2.0:
+csscomb@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/csscomb/-/csscomb-4.2.0.tgz#5f948bc94afa61c033c3984e4192f0e6fef67fdb"
+  integrity sha512-HXXCSVTpHck64PUMIn/2I8auBGmIpx+cD/Hs+KnYH+p9iaMTN0cd38l22qYVp8vEp6v9w+Bbi0SD8iN8fgrINg==
   dependencies:
     babel-polyfill "6.23.0"
     glob latest
@@ -702,7 +704,7 @@ cssnano@^3.10.0:
     postcss-value-parser "^3.2.3"
     postcss-zindex "^2.0.1"
 
-csso-cli@~2.0.0:
+csso-cli@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/csso-cli/-/csso-cli-2.0.0.tgz#87b771e98db0a25fac327ad3289f834b342d9b01"
   integrity sha512-oUWhgCgDiGQD8YiigPfiGcITsI3Ypi7z2TW2eg9bWb0+rpkten57trzHqRyCq8r0nve+l75Binq9bPhkVYbsjw==
@@ -2069,7 +2071,7 @@ merge2@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.2.2.tgz#03212e3da8d86c4d8523cebd6318193414f94e34"
 
-microbundle@^0.5.0:
+microbundle@0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/microbundle/-/microbundle-0.5.1.tgz#ddb9fc8d85fe19ba5354bea70eb0b32576685058"
   integrity sha512-ZzLXsX1Xwh1Oq4Ss923e04i/DySacyJZf5jBsbjQE+RjR9N5kI4+3ehAw40yrq7krmWT/lEOntc4TOUuhh+eyw==
@@ -3505,7 +3507,7 @@ standard-engine@~9.0.0:
     minimist "^1.1.0"
     pkg-conf "^2.0.0"
 
-standard@~12.0.0:
+standard@12.0.1:
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/standard/-/standard-12.0.1.tgz#0fc5a8aa6c34c546c5562aae644242b24dae2e61"
   integrity sha512-UqdHjh87OG2gUrNCSM4QRLF5n9h3TFPwrCNyVlkqu31Hej0L/rc8hzKqVvkb2W3x0WMq7PzZdkLfEcBhVOR6lg==
