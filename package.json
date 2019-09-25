@@ -34,7 +34,7 @@
   "homepage": "https://github.com/tiaanduplessis/color-pal#readme",
   "devDependencies": {
     "cpy-cli": "2.0.0",
-    "csscomb": "4.2.0",
+    "csscomb": "4.3.0",
     "csso-cli": "2.0.0",
     "microbundle": "0.5.1",
     "standard": "12.0.1"
